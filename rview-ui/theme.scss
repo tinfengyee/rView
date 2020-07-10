@@ -1,0 +1,40 @@
+// 此文件为rView的主题变量，这些变量目前只能通过uni.scss引入才有效，另外由于
+// uni.scss中引入的样式会同时混入到全局样式文件和单独每一个页面的样式中，造成微信程序包太大，
+// 故uni.scss只建议放scss变量名相关样式，其他的样式可以通过main.js或者App.vue引入
+
+$r-base-color: #FF6666; // 主题颜色
+
+$r-main-color: #303133;
+$r-content-color: #606266;
+$r-tips-color: #909399;
+$r-light-color: #c0c4cc;
+$r-border-color: #e4e7ed;
+$r-bg-color: #f3f4f6;
+
+$r-type-primary: #2979ff;
+$r-type-primary-light: #ecf5ff;
+$r-type-primary-disabled: #a0cfff;
+$r-type-primary-dark: #2b85e4;
+
+$r-type-warning: #ff9900;
+$r-type-warning-disabled: #fcbd71;
+$r-type-warning-dark: #f29100;
+$r-type-warning-light: #fdf6ec;
+
+$r-type-success: #19be6b;
+$r-type-success-disabled: #71d5a1;
+$r-type-success-dark: #18b566;
+$r-type-success-light: #dbf1e1;
+
+$r-type-error: #fa3534;
+$r-type-error-disabled: #fab6b6;
+$r-type-error-dark: #dd6161;
+$r-type-error-light: #fef0f0;
+
+$r-type-info: #909399;
+$r-type-info-disabled: #c8c9cc;
+$r-type-info-dark: #82848a;
+$r-type-info-light: #f4f4f5;
+
+$r-form-item-height: 70rpx;
+$r-form-item-border-color: #dcdfe6;
