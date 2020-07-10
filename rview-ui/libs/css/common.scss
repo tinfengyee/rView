@@ -43,6 +43,14 @@ text {
 	font-size: 34rpx;
 }
 
+// flex
+
+%r-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .r-flex {
 	/* #ifndef APP-NVUE */
 	display: flex;

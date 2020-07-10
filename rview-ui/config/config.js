@@ -1,11 +1,11 @@
-let r-version = '1.0.0'
-let u-version = '1.4.8';
+let rVersion = '1.0.0'
+let uVersion = '1.4.8';
 
 export default {
-	v: r-version,
-	version: r-version,
-  u-v: u-version,
-  u-version: u-version,
+	v: rVersion,
+	version: rVersion,
+  'u-v': uVersion,
+  'u-version': uVersion,
 	// 主题名称
 	type: [
 		'primary',

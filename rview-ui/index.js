@@ -36,7 +36,14 @@ import {
   type2icon
 } from './libs/function'
 
+// 配置信息
+import config from './config/config.js'
+// 各个需要fixed的地方的z-index配置文件
+import zIndex from './config/zIndex.js'
+
 const $r = {
+  config,
+  zIndex,
   type: ['primary', 'success', 'error', 'warning', 'info'],
   toast,
   http,
