@@ -4,6 +4,7 @@
     <view class="text-area">
       <text class="title r-border">{{title}}</text>
     </view>
+    <r-button size="mini" type="default" plain="">你好</r-button>
   </view>
 </template>
 

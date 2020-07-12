@@ -3,6 +3,9 @@
 // 故uni.scss只建议放scss变量名相关样式，其他的样式可以通过main.js或者App.vue引入
 
 $r-base-color: #FF6666; // 主题颜色
+$r-type-base-light: #ecf5ff;
+$r-type-base-disabled: #a0cfff;
+$r-type-base-dark: #2b85e4;
 
 $r-main-color: #303133;
 $r-content-color: #606266;
