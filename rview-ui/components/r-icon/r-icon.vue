@@ -135,7 +135,7 @@
         if (this.customPrefix == 'uicon') classes.push('u-iconfont');
         else classes.push(this.customPrefix);
         // 主题色，通过类配置
-        if (this.color && this.$u.config.type.includes(this.color)) classes.push('r-icon__icon--' + this.color);
+        if (this.color && this.$r.config.type.includes(this.color)) classes.push('r-icon__icon--' + this.color);
         // 阿里，头条，百度小程序通过数组绑定类名时，无法直接使用[a, b, c]的形式，否则无法识别
         // 故需将其拆成一个字符串的形式，通过空格隔开各个类名
         //#ifdef MP-ALIPAY || MP-TOUTIAO || MP-BAIDU
@@ -146,7 +146,7 @@
       iconStyle() {
         let style = {};
         style = {
-          fontSize: this.size == 'inherit' ? 'inherit' : this.$u.addUnit(this.size),
+          fontSize: this.size == 'inherit' ? 'inherit' : this.$r.addUnit(this.size),
           fontWeight: this.bold ? 'bold' : 'normal'
         };
         // 非主题色值时，才当作颜色值
