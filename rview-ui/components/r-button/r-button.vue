@@ -51,6 +51,33 @@
 </template>
 
 <script>
+  /**
+   * button 按钮
+   * @description Button 按钮
+   * @tutorial https://www.uviewui.com/components/button.html
+   * @property {String} size 按钮的大小
+   * @property {Boolean} ripple 是否开启点击水波纹效果
+   * @property {String} ripple-bg-color 水波纹的背景色，ripple为true时有效
+   * @property {String} type 按钮的样式类型
+   * @property {Boolean} plain 按钮是否镂空，背景色透明
+   * @property {Boolean} disabled 是否禁用
+   * @property {Boolean} hair-line 是否显示按钮的细边框(默认true)
+   * @property {Boolean} shape 按钮外观形状，见文档说明
+   * @property {Boolean} loading 按钮名称前是否带 loading 图标(App-nvue 平台，在 ios 上为雪花，Android上为圆圈)
+   * @property {String} form-type 用于 <form> 组件，点击分别会触发 <form> 组件的 submit/reset 事件
+   * @property {String} open-type 开放能力
+   * @property {String} hover-class 指定按钮按下去的样式类。当 hover-class="none" 时，没有点击态效果(App-nvue 平台暂不支持)
+   * @property {Number} hover-start-time 按住后多久出现点击态，单位毫秒
+   * @property {Number} hover-stay-time 手指松开后点击态保留时间，单位毫秒
+   * @property {Object} custom-style 对按钮的自定义样式，对象形式，见文档说明
+   * @event {Function} click 按钮点击
+   * @event {Function} getphonenumber open-type="getPhoneNumber"时有效
+   * @event {Function} getuserinfo 用户点击该按钮时，会返回获取到的用户信息，从返回参数的detail中获取到的值同uni.getUserInfo
+   * @event {Function} error 当使用开放能力时，发生错误的回调
+   * @event {Function} opensetting 在打开授权设置页并关闭后回调
+   * @event {Function} launchapp 打开 APP 成功的回调
+   * @example <r-button>月落</r-button>
+   */
   export default {
     name: 'r-button',
     props: {

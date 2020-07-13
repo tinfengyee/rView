@@ -5,11 +5,21 @@
       <text class="title r-border">{{title}}</text>
     </view>
     <r-button size="mini" type="default" plain="">你好</r-button>
-    <view class="r-flex" style="height: 400rpx;">
-      <r-swiper :list="list"></r-swiper>
-    </view>
     <view class="" style="width: 100%;">
       <r-tabs :list="tabsList" current="2"></r-tabs>
+    </view>
+    <view class="">
+      <r-avatar src="https://cdn.uviewui.com/uview/swiper/1.jpg"></r-avatar>
+    </view>
+    <view class="" style="width: 100%;">
+      <r-section :showLine="true" title="'ff">
+ <!--       <view class="title"  slot="title">
+          fsf
+        </view> -->
+  <!--      <view class="rifght" slot="right">
+          dd
+        </view> -->
+      </r-section>
     </view>
   </view>
 </template>

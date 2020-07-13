@@ -69,7 +69,7 @@
    * @property {String Number} effect3d-previous-margin mode = true模式的情况下，激活项与前后项之间的距离，单位rpx（默认50）
    * @property {String} img-mode 图片的裁剪模式，详见image组件裁剪模式（默认aspectFill）
    * @event {Function} click 点击轮播图时触发
-   * @example <u-swiper :list="list" mode="dot" indicator-pos="bottomRight"></u-swiper>
+   * @example <r-swiper :list="list" mode="dot" indicator-pos="bottomRight"></r-swiper>
    */
   export default {
     name: "r-swiper",
