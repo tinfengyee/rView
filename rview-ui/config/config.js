@@ -8,6 +8,7 @@ export default {
   'u-version': uVersion,
 	// 主题名称
 	type: [
+    'base',
 		'primary',
 		'success',
 		'info',

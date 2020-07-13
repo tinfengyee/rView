@@ -2,7 +2,8 @@
 // uni.scss中引入的样式会同时混入到全局样式文件和单独每一个页面的样式中，造成微信程序包太大，
 // 故uni.scss只建议放scss变量名相关样式，其他的样式可以通过main.js或者App.vue引入
 
-$r-base-color: #BE1F2D; // 主题颜色
+// 添加base主题颜色,方便业务修改
+$r-type-base-color: #BE1F2D; 
 $r-type-base-disabled: #df3981;
 $r-type-base-dark: #b81d2d;
 $r-type-base-light: #be9ba2;

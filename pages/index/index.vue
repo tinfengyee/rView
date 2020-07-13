@@ -8,6 +8,9 @@
     <view class="r-flex" style="height: 400rpx;">
       <r-swiper :list="list"></r-swiper>
     </view>
+    <view class="" style="width: 100%;">
+      <r-tabs :list="tabsList" current="2"></r-tabs>
+    </view>
   </view>
 </template>
 
@@ -30,6 +33,15 @@
             title: '谁念西风独自凉，萧萧黄叶闭疏窗，沉思往事立残阳'
           }
         ],
+        tabsList: [{
+          name: '待收货'
+        }, {
+          name: '待付款'
+        }, {
+          name: '待评价'
+        }],
+        current: 0,
+        
       }
     },
     onLoad() {

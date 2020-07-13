@@ -44,7 +44,7 @@ import zIndex from './config/zIndex.js'
 const $r = {
   config,
   zIndex,
-  type: ['primary', 'success', 'error', 'warning', 'info'],
+  type: ['base', 'primary', 'success', 'error', 'warning', 'info'],
   toast,
   http,
   get: http.get,
