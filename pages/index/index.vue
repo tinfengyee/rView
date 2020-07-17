@@ -12,14 +12,9 @@
       <r-avatar src="https://cdn.uviewui.com/uview/swiper/1.jpg"></r-avatar>
     </view>
     <view class="" style="width: 100%;">
-      <r-section :showLine="true" title="'ff">
- <!--       <view class="title"  slot="title">
-          fsf
-        </view> -->
-  <!--      <view class="rifght" slot="right">
-          dd
-        </view> -->
-      </r-section>
+      <view @click="$r.route('pages/demo/demo')">
+        demo
+      </view>
     </view>
   </view>
 </template>
@@ -61,7 +56,9 @@
       })
     },
     methods: {
-
+      rrr() {
+        this.$r.route('/page/demo/demo')
+      }
     }
   }
 </script>
